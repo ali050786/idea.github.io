@@ -1,0 +1,218 @@
+/* screen - home */
+
+.border-class-1 {
+  border: 1px solid transparent;
+}
+.home {
+  background-color: rgba(255,255,255,1.0);
+  background-image: url(../img/group-40@1x.svg);
+  background-size: 100% 100%;
+  height: 100vh;
+  margin: 0px;
+  min-height: 1024px;
+  min-width: 1920px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.home .about-1107-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% + 132px);
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: left;
+  top: calc(50.00% - 449px);
+  width: auto;
+}
+.home .clients-1110-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% + 219px);
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: left;
+  top: calc(50.00% - 449px);
+  width: auto;
+}
+.home .contacts-1123-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% + 431px);
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: left;
+  top: calc(50.00% - 449px);
+  width: auto;
+}
+.home .header-C61RwL {
+  background-color: transparent;
+  height: 154px;
+  left: calc(50.00% - 960px);
+  position: absolute;
+  top: calc(50.00% - 512px);
+  width: 1920px;
+}
+.home .home-1104-C61RwL {
+  background-color: transparent;
+  color: rgba(236,22,81,1.0);
+  font-family: 'Montserrat Alternates', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  height: auto;
+  left: calc(50.00% + 46px);
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: left;
+  top: calc(50.00% - 449px);
+  width: auto;
+}
+.home .instagram-C61RwL {
+  background-color: transparent;
+  height: 16px;
+  left: calc(50.00% + 416px);
+  position: absolute;
+  top: calc(50.00% - 400px);
+  width: 16px;
+}
+.home .path-1-C61RwL {
+  background-color: transparent;
+  height: 44px;
+  left: calc(50.00% - 502px);
+  position: absolute;
+  top: calc(50.00% - 482px);
+  width: 110px;
+}
+.home .path-1-VMr6Om {
+  background-color: transparent;
+  height: 16px;
+  left: calc(50.00% + 504px);
+  position: absolute;
+  top: calc(50.00% - 400px);
+  width: 8px;
+}
+.home .path-2-C61RwL {
+  background-color: transparent;
+  height: 44px;
+  left: calc(50.00% - 504px);
+  position: absolute;
+  top: calc(50.00% - 434px);
+  width: 72px;
+}
+.home .path-2-VMr6Om {
+  background-color: transparent;
+  height: 13px;
+  left: calc(50.00% + 458px);
+  position: absolute;
+  top: calc(50.00% - 398px);
+  width: 16px;
+}
+.home .path-3-C61RwL {
+  background-color: transparent;
+  height: 43px;
+  left: calc(50.00% - 430px);
+  position: absolute;
+  top: calc(50.00% - 434px);
+  width: 6px;
+}
+.home .path-4-C61RwL {
+  background-color: transparent;
+  height: 43px;
+  left: calc(50.00% - 512px);
+  position: absolute;
+  top: calc(50.00% - 482px);
+  width: 6px;
+}
+.home .projects-1116-C61RwL {
+  background-color: transparent;
+  height: auto;
+  left: calc(50.00% + 320px);
+  letter-spacing: 0.00px;
+  position: absolute;
+  text-align: left;
+  top: calc(50.00% - 449px);
+  width: auto;
+}
+.home .rectangle-1-C61RwL {
+  background-color: transparent;
+  height: 43px;
+  left: calc(50.00% - 512px);
+  position: absolute;
+  top: calc(50.00% - 482px);
+  width: 6px;
+}
+.home .rectangle-2-C61RwL {
+  background-color: transparent;
+  height: 43px;
+  left: calc(50.00% - 512px);
+  position: absolute;
+  top: calc(50.00% - 434px);
+  width: 6px;
+}
+.home .rectangle-392-C61RwL {
+  background-color: transparent;
+  height: 16px;
+  left: calc(50.00% + 500px);
+  position: absolute;
+  top: calc(50.00% - 400px);
+  width: 16px;
+}
+.home .rectangle-393-C61RwL {
+  background-color: transparent;
+  height: 16px;
+  left: calc(50.00% + 458px);
+  position: absolute;
+  top: calc(50.00% - 400px);
+  width: 16px;
+}
+.home .rectangle-445-C61RwL {
+  background-color: rgba(235,179,15,1.0);
+  height: 3px;
+  left: calc(50.00% + 46px);
+  position: absolute;
+  top: calc(50.00% - 427px);
+  width: 56px;
+}
+.home .rectangle-445-QxM5SU {
+  background-color: transparent;
+  height: 3px;
+  left: calc(50.00% + 320px);
+  position: absolute;
+  top: calc(50.00% - 427px);
+  width: 72px;
+}
+.home .rectangle-445-VMr6Om {
+  background-color: rgba(236,179,16,1.0);
+  height: 3px;
+  left: calc(50.00% + 132px);
+  position: absolute;
+  top: calc(50.00% - 427px);
+  width: 57px;
+}
+.home .rectangle-445-mzXdH9 {
+  background-color: rgba(236,179,16,1.0);
+  height: 3px;
+  left: calc(50.00% + 219px);
+  position: absolute;
+  top: calc(50.00% - 427px);
+  width: 61px;
+}
+.home .rectangle-446-C61RwL {
+  background-color: transparent;
+  height: 3px;
+  left: calc(50.00% + 431px);
+  position: absolute;
+  top: calc(50.00% - 427px);
+  width: 82px;
+}
+.montserratalternates-normal-mine-shaft-18px {
+  color: var(--mine-shaft);
+  font-family: 'Montserrat Alternates', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --mine-shaft: rgba(51,51,51,1.0);
+}

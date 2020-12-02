@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+    <link rel="shortcut icon" href="./img/favicon.png" />
+    <meta name="og:type" content="website" />
+    <meta name="twitter:card" content="photo" />
+    <link rel="stylesheet" type="text/css" href="css/home-500.css" />
+    <style>
+      @import url("https://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700|Poppins:300,400,700");
+
+      .anima-component-wrapper a,
+      .anima-screen a {
+        text-decoration: none;
+        display: contents;
+      }
+
+      .anima-full-width-a {
+        width: 100%;
+      }
+
+      .anima-full-height-a {
+        height: 100%;
+      }
+
+      .anima-screen textarea:focus,
+      .anima-screen input:focus {
+        outline: none;
+      }
+
+      .anima-screen *,
+      .anima-component-wrapper * {
+        box-sizing: border-box;
+      }
+
+      .anima-screen div {
+        -webkit-text-size-adjust: none;
+      }
+
+      .anima-container-center-vertical,
+      .anima-container-center-horizontal {
+        pointer-events: none;
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        margin: 0;
+      }
+
+      .anima-container-center-vertical {
+        align-items: center;
+        height: 100%;
+      }
+
+      .anima-container-center-horizontal {
+        justify-content: center;
+        width: 100%;
+      }
+
+      .anima-container-center-vertical > *,
+      .anima-container-center-horizontal > * {
+        pointer-events: auto;
+        flex-shrink: 0;
+      }
+
+      .anima-component-wrapper,
+      .anima-screen {
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+        word-break: break-all;
+        word-break: break-word;
+      }
+
+      .anima-auto-animated div {
+        opacity: 0;
+        position: absolute;
+        --anima-z-index: -1;
+      }
+
+      .anima-auto-animated .anima-container-center-vertical,
+      .anima-auto-animated .anima-container-center-horizontal {
+        opacity: 1;
+      }
+
+      .anima-overlay {
+        position: absolute;
+        opacity: 0;
+        display: none;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        position: fixed;
+      }
+
+      .anima-animate-appear {
+        opacity: 0;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 normal forwards;
+      }
+
+      .anima-animate-disappear {
+        opacity: 1;
+        display: block;
+        animation: anima-reveal 0.3s ease-in-out 1 reverse forwards;
+      }
+
+      .anima-animate-nodelay {
+        animation-delay: 0s;
+      }
+
+      @keyframes anima-reveal {
+        from {
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
+        }
+      }
+      .align-self-flex-start {
+        align-self: flex-start;
+      }
+      .align-self-flex-end {
+        align-self: flex-end;
+      }
+      .align-self-flex-center {
+        align-self: center;
+      }
+      .anima-valign-text-middle {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+      }
+      .anima-valign-text-bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+      .anima-component-wrapper,
+      .anima-component-wrapper * {
+        pointer-events: none;
+      }
+
+      .anima-component-wrapper a *,
+      .anima-component-wrapper a,
+      .anima-component-wrapper input,
+      .anima-component-wrapper video,
+      .anima-component-wrapper iframe,
+      .anima-listeners-active,
+      .anima-listeners-active * {
+        pointer-events: auto;
+      }
+
+      .anima-hidden,
+      .anima-hidden * {
+        visibility: hidden;
+        pointer-events: none;
+      }
+
+      .anima-smart-layers-pointers,
+      .anima-smart-layers-pointers * {
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .anima-component-wrapper.anima-not-ready,
+      .anima-component-wrapper.anima-not-ready * {
+        visibility: hidden !important;
+      }
+
+      .anima-listeners-active-click,
+      .anima-listeners-active-click * {
+        cursor: pointer;
+      }
+    </style>
+    <meta name="author" content="AnimaApp.com - Design to code, Automated." />
+  </head>
+  <body style="margin: 0; background: rgba(255, 255, 255, 1)">
+    <input type="hidden" id="anPageName" name="page" value="home-500" />
+    <div class="home-1920 anima-screen">
+      <img class="banner-C61RwL" src="img/banner@1x.svg" />
+      <img class="header-C61RwL" src="img/header@1x.svg" />
+      <img class="rectangle-1-C61RwL" src="img/rectangle-1@2x.svg" />
+      <img class="path-1-C61RwL" src="img/path-1@2x.svg" />
+      <img class="rectangle-2-C61RwL" src="img/rectangle-2@2x.svg" />
+      <img class="path-2-C61RwL" src="img/path-2@2x.svg" />
+      <img class="path-3-C61RwL" src="img/path-3@2x.svg" />
+      <img class="path-4-C61RwL" src="img/path-4@2x.svg" />
+      <div class="rectangle-445-C61RwL"></div>
+      <div class="home-2203-C61RwL border-class-1">Home</div>
+      <div class="rectangle-445-VMr6Om"></div>
+      <div class="about-2206-C61RwL montserratalternates-normal-mine-shaft-18px border-class-1">About</div>
+      <div class="rectangle-445-mzXdH9"></div>
+      <div class="clients-2209-C61RwL montserratalternates-normal-mine-shaft-18px border-class-1">Clients</div>
+      <img class="rectangle-445-QxM5SU" src="img/rectangle-445@2x.svg" />
+      <div class="projects-2212-C61RwL montserratalternates-normal-mine-shaft-18px border-class-1">Projects</div>
+      <img class="rectangle-446-C61RwL" src="img/rectangle-446@2x.svg" />
+      <div class="contacts-2215-C61RwL montserratalternates-normal-mine-shaft-18px border-class-1">Contacts</div>
+      <img class="rectangle-392-C61RwL" src="img/rectangle-392@2x.svg" />
+      <img class="path-1-VMr6Om" src="img/path-1-2@2x.svg" />
+      <img class="rectangle-393-C61RwL" src="img/rectangle-392@2x.svg" />
+      <img class="path-2-VMr6Om" src="img/path-2-2@2x.svg" />
+      <img class="instagram-C61RwL" src="img/instagram@2x.svg" />
+      <img class="group-40-C61RwL" src="img/group-40@1x.svg" />
+      <div class="our-story-2230-C61RwL poppins-normal-amber-30px border-class-1">OUR STORY</div>
+      <div class="rectangle-449-C61RwL"></div>
+      <img class="arrow-1-C61RwL" src="img/arrow-1@2x.svg" />
+      <div class="idealab-fo-ffice-2233-C61RwL poppins-light-black-14px border-class-1">
+        Idealab formed in 2019 with the vision of supplying modern design-led high-quality office furniture products
+        within India. After months of market research in the furniture industry, It came to our attention that newer
+        concepts were absent on the landscape of the interior designed arena. We also realised the absence of
+        interesting concepts which can transform the space we live and work in. Wewanted to build a platform that would
+        bring newer ideas of concepts in form of products and design experience to the end clients.what we do best;
+        supplying high-quality modern office furniture to like minded creative businesses throughout the country.Idealab
+        is a private enterprise run by passionate people who believewe can contribute positively to improving the
+        working lives of peopleat the office
+      </div>
+      <div class="what-we-do-2236-C61RwL poppins-normal-mine-shaft-30px border-class-1">WHAT WE DO</div>
+      <div class="rectangle-449-VMr6Om"></div>
+      <img class="arrow-1-VMr6Om" src="img/arrow-1-2@2x.svg" />
+      <div class="how-we-do-2241-C61RwL poppins-normal-mine-shaft-30px border-class-1">HOW WE DO</div>
+      <div class="rectangle-449-mzXdH9"></div>
+      <img class="arrow-1-mzXdH9" src="img/arrow-1-2@2x.svg" />
+      <div class="who-do-we---with-2246-C61RwL poppins-normal-cape-cod-30px border-class-1">WHO DO WE WORK WITH</div>
+      <div class="rectangle-449-QxM5SU"></div>
+      <img class="arrow-1-QxM5SU" src="img/arrow-1-2@2x.svg" />
+      <div class="about-us-2249-C61RwL poppins-bold-mine-shaft-48px border-class-1">About Us</div>
+      <div class="products-2251-C61RwL poppins-bold-mine-shaft-48px border-class-1">Products</div>
+      <img class="mask-group-C61RwL" src="img/mask-group@1x.svg" />
+      <img class="mask-group-VMr6Om" src="img/mask-group-2@1x.svg" />
+      <img class="mask-group-mzXdH9" src="img/mask-group-4@1x.svg" />
+      <img class="mask-group-QxM5SU" src="img/mask-group-6@1x.svg" />
+      <img class="mask-group-2P4qUJ" src="img/mask-group-8@1x.svg" />
+      <img class="mask-group-qr8e7q" src="img/mask-group-10@1x.svg" />
+      <img class="image-10-C61RwL" src="img/image-10@1x.jpg" />
+      <div class="rectangle-452-C61RwL"></div>
+      <div class="lets-get-s-l-way-2285-C61RwL border-class-1">
+        LET&#39;S GET STARTED YOUR PROJECT WITH PROFESSIONAL WAY
+      </div>
+      <div class="get-in-tou--help-2286-C61RwL border-class-1">
+        <span class="span1-YdJpxs">Get in touch</span
+        ><span class="span2-YdJpxs"> and let us know<br />how we can help</span>
+      </div>
+      <img class="group-40-VMr6Om" src="img/group-40@1x.svg" />
+      <div class="our-story-3157-C61RwL poppins-normal-amber-30px border-class-1">OUR STORY</div>
+      <div class="rectangle-449-2P4qUJ"></div>
+      <img class="arrow-1-2P4qUJ" src="img/arrow-1@2x.svg" />
+      <div class="idealab-fo-ffice-3160-C61RwL poppins-light-black-14px border-class-1">
+        Idealab formed in 2019 with the vision of supplying modern design-led high-quality office furniture products
+        within India. After months of market research in the furniture industry, It came to our attention that newer
+        concepts were absent on the landscape of the interior designed arena. We also realised the absence of
+        interesting concepts which can transform the space we live and work in. Wewanted to build a platform that would
+        bring newer ideas of concepts in form of products and design experience to the end clients.what we do best;
+        supplying high-quality modern office furniture to like minded creative businesses throughout the country.Idealab
+        is a private enterprise run by passionate people who believewe can contribute positively to improving the
+        working lives of peopleat the office
+      </div>
+      <div class="what-we-do-3163-C61RwL poppins-normal-mine-shaft-30px border-class-1">WHAT WE DO</div>
+      <div class="rectangle-449-qr8e7q"></div>
+      <img class="arrow-1-qr8e7q" src="img/arrow-1-2@2x.svg" />
+      <div class="how-we-do-3168-C61RwL poppins-normal-mine-shaft-30px border-class-1">HOW WE DO</div>
+      <div class="rectangle-449-J1YQmd"></div>
+      <img class="arrow-1-J1YQmd" src="img/arrow-1-2@2x.svg" />
+      <div class="who-do-we---with-3173-C61RwL poppins-normal-cape-cod-30px border-class-1">WHO DO WE WORK WITH</div>
+      <div class="rectangle-449-a5WPlX"></div>
+      <img class="arrow-1-a5WPlX" src="img/arrow-1-2@2x.svg" />
+      <div class="about-us-3176-C61RwL poppins-bold-mine-shaft-48px border-class-1">About Us</div>
+      <div class="rectangle-454-C61RwL"></div>
+      <div class="rectangle-453-C61RwL"></div>
+      <img class="image-11-C61RwL" src="img/image-11@1x.png" />
+      <div class="contact-us-3408-C61RwL border-class-1">Contact Us</div>
+      <div class="x1st-floor--0-071-3409-C61RwL poppins-normal-white-16px border-class-1">
+        1st floor, #134, Media Comain,<br />Doopanahalli, Domlur, Bengauluru-560 071
+      </div>
+      <div class="call-91-08-mpany-3410-C61RwL poppins-normal-white-16px border-class-1">
+        Call : +91 080 41278621<br />Mail : contact@idealab.company
+      </div>
+      <div class="idealab-3411-C61RwL poppins-bold-white-28px border-class-1">Idealab</div>
+      <img class="vector-1-C61RwL" src="img/vector-1@2x.svg" />
+    </div>
+    <div class="home-1024 anima-screen">
+      <img class="banner-C61RwL" src="img/banner-2@1x.svg" />
+      <img class="header-C61RwL" src="img/header-2@1x.svg" />
+      <img class="rectangle-1-C61RwL" src="img/rectangle-1-2@2x.svg" />
+      <img class="path-1-C61RwL" src="img/path-1-4@2x.svg" />
+      <img class="rectangle-2-C61RwL" src="img/rectangle-2-2@2x.svg" />
+      <img class="path-2-C61RwL" src="img/path-2-4@2x.svg" />
+      <img class="path-3-C61RwL" src="img/path-3-2@2x.svg" />
+      <img class="path-4-C61RwL" src="img/path-4-2@2x.svg" />
+      <div class="rectangle-445-C61RwL"></div>
+      <div class="home-2644-C61RwL border-class-1">Home</div>
+      <div class="rectangle-445-VMr6Om"></div>
+      <div class="about-2647-C61RwL montserratalternates-normal-mine-shaft-18px border-class-1">About</div>
+      <div class="rectangle-445-mzXdH9"></div>
+      <div class="clients-2650-C61RwL montserratalternates-normal-mine-shaft-18px border-class-1">Clients</div>
+      <img class="rectangle-445-QxM5SU" src="img/rectangle-445-2@2x.svg" />
+      <div class="projects-2653-C61RwL montserratalternates-normal-mine-shaft-18px border-class-1">Projects</div>
+      <img class="rectangle-446-C61RwL" src="img/rectangle-446-2@2x.svg" />
+      <div class="contacts-2656-C61RwL montserratalternates-normal-mine-shaft-18px border-class-1">Contacts</div>
+      <img class="rectangle-392-C61RwL" src="img/rectangle-392-2@2x.svg" />
+      <img class="path-1-VMr6Om" src="img/path-1-6@2x.svg" />
+      <img class="rectangle-393-C61RwL" src="img/rectangle-393-2@2x.svg" />
+      <img class="path-2-VMr6Om" src="img/path-2-6@2x.svg" />
+      <img class="instagram-C61RwL" src="img/instagram-2@2x.svg" />
+      <img class="group-40-C61RwL" src="img/group-40@1x.svg" />
+      <div class="our-story-2672-C61RwL poppins-normal-amber-30px border-class-1">OUR STORY</div>
+      <div class="rectangle-449-C61RwL"></div>
+      <img class="arrow-1-C61RwL" src="img/arrow-1@2x.svg" />
+      <div class="idealab-fo-ffice-2675-C61RwL poppins-light-black-14px border-class-1">
+        Idealab formed in 2019 with the vision of supplying modern design-led high-quality office furniture products
+        within India. After months of market research in the furniture industry, It came to our attention that newer
+        concepts were absent on the landscape of the interior designed arena. We also realised the absence of
+        interesting concepts which can transform the space we live and work in. Wewanted to build a platform that would
+        bring newer ideas of concepts in form of products and design experience to the end clients.what we do best;
+        supplying high-quality modern office furniture to like minded creative businesses throughout the country.Idealab
+        is a private enterprise run by passionate people who believewe can contribute positively to improving the
+        working lives of peopleat the office
+      </div>
+      <div class="what-we-do-2678-C61RwL poppins-normal-mine-shaft-30px border-class-1">WHAT WE DO</div>
+      <div class="rectangle-449-VMr6Om"></div>
+      <img class="arrow-1-VMr6Om" src="img/arrow-1-2@2x.svg" />
+      <div class="how-we-do-2683-C61RwL poppins-normal-mine-shaft-30px border-class-1">HOW WE DO</div>
+      <div class="rectangle-449-mzXdH9"></div>
+      <img class="arrow-1-mzXdH9" src="img/arrow-1-2@2x.svg" />
+      <div class="who-do-we---with-2688-C61RwL poppins-normal-cape-cod-30px border-class-1">WHO DO WE WORK WITH</div>
+      <div class="rectangle-449-QxM5SU"></div>
+      <img class="arrow-1-QxM5SU" src="img/arrow-1-2@2x.svg" />
+      <div class="about-us-2691-C61RwL poppins-bold-mine-shaft-48px border-class-1">About Us</div>
+      <div class="products-2693-C61RwL poppins-bold-mine-shaft-48px border-class-1">Products</div>
+      <img class="mask-group-C61RwL" src="img/mask-group-12@2x.svg" />
+      <img class="mask-group-VMr6Om" src="img/mask-group-14@2x.svg" />
+      <img class="mask-group-mzXdH9" src="img/mask-group-16@2x.svg" />
+      <img class="mask-group-QxM5SU" src="img/mask-group-18@2x.svg" />
+      <img class="mask-group-2P4qUJ" src="img/mask-group-20@2x.svg" />
+      <img class="mask-group-qr8e7q" src="img/mask-group-22@2x.svg" />
+      <img class="image-10-C61RwL" src="img/image-10@1x.jpg" />
+      <div class="rectangle-452-C61RwL"></div>
+      <div class="lets-get-s-l-way-2727-C61RwL border-class-1">
+        LET&#39;S GET STARTED YOUR PROJECT WITH PROFESSIONAL WAY
+      </div>
+      <div class="get-in-tou--help-2728-C61RwL border-class-1">
+        <span class="span1-cOHrOG">Get in touch</span
+        ><span class="span2-cOHrOG"> and let us know<br />how we can help</span>
+      </div>
+      <div class="rectangle-454-C61RwL"></div>
+      <div class="rectangle-453-C61RwL"></div>
+      <img class="image-11-C61RwL" src="img/image-11@1x.png" />
+      <div class="contact-us-2734-C61RwL border-class-1">Contact Us</div>
+      <div class="x1st-floor--0-071-2735-C61RwL poppins-normal-white-16px border-class-1">
+        1st floor, #134, Media Comain,<br />Doopanahalli, Domlur, Bengauluru-560 071
+      </div>
+      <div class="call-91-08-mpany-2736-C61RwL poppins-normal-white-16px border-class-1">
+        Call : +91 080 41278621<br />Mail : contact@idealab.company
+      </div>
+      <div class="idealab-2737-C61RwL poppins-bold-white-28px border-class-1">Idealab</div>
+      <img class="vector-1-C61RwL" src="img/vector-1@2x.svg" />
+    </div>
+    <div class="home-500 anima-screen">
+      <div class="rectangle-453-C61RwL"></div>
+      <div class="rectangle-454-C61RwL"></div>
+      <img class="image-11-C61RwL" src="img/image-11-1@2x.png" />
+      <div class="contact-us-3338-C61RwL border-class-1">Contact Us</div>
+      <div class="x1st-floor--0-071-3339-C61RwL poppins-normal-white-16px border-class-1">
+        1st floor, #134, Media Comain,<br />Doopanahalli, Domlur, Bengauluru-560 071
+      </div>
+      <div class="call-91-08-mpany-3340-C61RwL poppins-normal-white-16px border-class-1">
+        Call : +91 080 41278621<br />Mail : contact@idealab.company
+      </div>
+      <div class="idealab-3341-C61RwL poppins-bold-white-28px border-class-1">Idealab</div>
+      <img class="vector-1-C61RwL" src="img/vector-1@2x.svg" />
+      <img class="banner-C61RwL" src="img/banner-2@1x.svg" />
+      <img class="header-C61RwL" src="img/header-2@1x.svg" />
+      <img class="rectangle-1-C61RwL" src="img/rectangle-1-2@2x.svg" />
+      <img class="path-1-C61RwL" src="img/path-1-4@2x.svg" />
+      <img class="rectangle-2-C61RwL" src="img/rectangle-2-2@2x.svg" />
+      <img class="path-2-C61RwL" src="img/path-2-4@2x.svg" />
+      <img class="path-3-C61RwL" src="img/path-3-2@2x.svg" />
+      <img class="path-4-C61RwL" src="img/path-4-2@2x.svg" />
+      <div class="rectangle-455-C61RwL"></div>
+      <div class="rectangle-456-C61RwL"></div>
+      <div class="rectangle-457-C61RwL"></div>
+      <img class="group-42-C61RwL" src="img/group-42@1x.svg" />
+      <div class="our-story-3364-C61RwL border-class-1">OUR STORY</div>
+      <div class="rectangle-449-C61RwL"></div>
+      <img class="arrow-1-C61RwL" src="img/arrow-1-16@2x.svg" />
+      <div class="idealab-fo-ffice-3367-C61RwL poppins-light-black-14px border-class-1">
+        Idealab formed in 2019 with the vision of supplying modern design-led high-quality office furniture products
+        within India. After months of market research in the furniture industry, It came to our attention that newer
+        concepts were absent on the landscape of the interior designed arena. We also realised the absence of
+        interesting concepts which can transform the space we live and work in. Wewanted to build a platform that would
+        bring newer ideas of concepts in form of products and design experience to the end clients.what we do best;
+        supplying high-quality modern office furniture to like minded creative businesses throughout the country.Idealab
+        is a private enterprise run by passionate people who believewe can contribute positively to improving the
+        working lives of peopleat the office
+      </div>
+      <div class="what-we-do-3369-C61RwL poppins-normal-mine-shaft-24px border-class-1">WHAT WE DO</div>
+      <div class="rectangle-449-VMr6Om"></div>
+      <img class="arrow-1-VMr6Om" src="img/arrow-1-16@2x.svg" />
+      <div class="how-we-do-3373-C61RwL poppins-normal-mine-shaft-24px border-class-1">HOW WE DO</div>
+      <div class="rectangle-449-mzXdH9"></div>
+      <img class="arrow-1-mzXdH9" src="img/arrow-1-16@2x.svg" />
+      <div class="who-do-we---with-3377-C61RwL poppins-normal-mine-shaft-24px border-class-1">WHO DO WE WORK WITH</div>
+      <div class="rectangle-449-QxM5SU"></div>
+      <img class="arrow-1-QxM5SU" src="img/arrow-1-16@2x.svg" />
+      <div class="about-us-3380-C61RwL border-class-1">About Us</div>
+      <div class="products-3382-C61RwL border-class-1">Products</div>
+      <img class="mask-group-C61RwL" src="img/mask-group-12@1x.svg" />
+      <div class="auto-flex-C61RwL">
+        <img class="mask-group-fhuxN3" src="img/mask-group-14@1x.svg" />
+        <img class="mask-group-Eq89Y8" src="img/mask-group-16@1x.svg" />
+      </div>
+      <img class="image-10-C61RwL" src="img/image-10-1@2x.jpg" />
+      <div class="rectangle-452-C61RwL"></div>
+      <div class="lets-get-s-l-way-3401-C61RwL border-class-1">
+        LET&#39;S GET STARTED YOUR PROJECT WITH PROFESSIONAL WAY
+      </div>
+      <div class="get-in-tou--help-3402-C61RwL border-class-1">
+        <span class="span1-fJfqhu">Get in touch</span
+        ><span class="span2-fJfqhu"> and let us know<br />how we can help</span>
+      </div>
+    </div>
+  </body>
+</html>
