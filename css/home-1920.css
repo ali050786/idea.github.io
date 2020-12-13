@@ -1388,12 +1388,19 @@ input[type=text]{
   background-size:130%;
 }
 
+.brand-background.ofs{
+  background-image: url(../img/inner-page/ofs.jpg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size:130%;
+}
+
 .inner-page-content{
   width: 100%;
   display: table;
   position: relative;
-  padding-top: 75px;
-  padding-bottom: 75px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .inner-page-content .main-content{
 width: 40%;
@@ -1462,3 +1469,4 @@ font-family: 'Poppins', Helvetica, Arial, serif;
   border: none;
   font-size: 20px;
 }
+
