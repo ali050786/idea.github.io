@@ -1318,6 +1318,8 @@ color: #FFFFFF;}
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
+  width: 100%;
+  text-align: center;
 }
 .poppins-normal-mine-shaft-30px {
   color: var(--mine-shaft);
