@@ -266,37 +266,27 @@ body{
 }
 
 .bannerImagesOuter{
-  position: absolute;
-  width: 100vw;
-  height:100vh;
+
   animation-name: bannermoves;
-  animation-duration:5s;
+  animation-duration:10s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+  animation-direction: alternate-reverse;
   
 }
 
-@keyframes changeBg
-{
-   0%   {background-image: url("../img/banner/toa-heftiba-FV3GConVSss-unsplash.jpg");}
-   23%  {background-image: url("../img/banner/toa-heftiba-FV3GConVSss-unsplash.jpg");}
-   25%  {background-image: url("../img/banner/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg");}
-   48%  {background-image: url("../img/banner/nastuh-abootalebi-yWwob8kwOCk-unsplash.jpg");}
-   50%  {background-image: url("../img/banner/nastuh-abootalebi-eHD8Y1Znfpk-unsplash.jpg");}
-   73%  {background-image: url("../img/banner/nastuh-abootalebi-eHD8Y1Znfpk-unsplash.jpg");}
-   75%  {background-image: url("../img/banner/danielle-cerullo-dN7085rORJo-unsplash.jpg");}
-   98%  {background-image: url("../img/banner/danielle-cerullo-dN7085rORJo-unsplash.jpg");}
-   100%  {background-image: url("../img/banner/toa-heftiba-FV3GConVSss-unsplash.jpg");}
+.new-arrival-inner{
+  width: 100%;
+  height: 480px;
+  overflow: hidden;
+  background-image: url("../img/new-arrival/gian-paolo-aliatis-K1DWORsW7PY-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: contain;
+  margin-bottom: 75px;
+  border-radius: 50px;
 }
 
-.bannerImagesInner{
-  position: absolute;
-  width: 100vw;
-  height:100vh;
-  animation: changeBg 20s infinite;
-  -webkit-animation: changeBg 20s infinite;
-  background-size: cover;
-}
+
 .nav ul li a:hover{
   color: #EC1651;
   
@@ -580,7 +570,7 @@ overflow: hidden;
 
 
 .contact-add{
-  padding-top:50px;
+  
   padding-left: 50px;
   color: #fff;
 }
@@ -1332,4 +1322,143 @@ color: #FFFFFF;}
   --amber: rgba(255,193,14,1.0);
   --mine-shaft: rgba(51,51,51,1.0);
   --white: rgba(255,255,255,1.0);
+}
+
+label{
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 12px;
+}
+
+input[type=text]{
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 12px;
+  padding:5px;
+  width: 80%;
+  border: #fff 1px solid;
+  background: #333333;
+  box-sizing: border-box;
+  color:#fff;
+  font-size: 16;
+  
+}
+
+/*-------------------------------------------------------------------------------------------InnerPages-------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------*/
+.inner-header-banner{
+  height: 154px;
+  width: 100%;
+  position: relative;
+  margin-top: -154px;
+  background-image: url("../img/banner/inner-banner.jpg");
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+}
+
+.brand-banner{
+  width: 100%;
+  position: relative;
+  display: table;
+  height: calc(100vh - 154px);
+}
+
+.brand-background{
+  width: 65%;
+  height:  calc(100vh - 154px);
+  position: absolute;
+  right:0px;
+  background-size: fit;
+  z-index: -1;
+
+}
+
+.brand-logo{
+  position: absolute;
+  width:200px;
+  top:50%;
+  margin-top: -100px;
+}
+
+.brand-background.frem-group{
+  background-image: url(../img/inner-page/architecture-3-pp.jpg);
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size:130%;
+}
+
+.inner-page-content{
+  width: 100%;
+  display: table;
+  position: relative;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.inner-page-content .main-content{
+width: 40%;
+margin-right: 10%;
+float: left;
+position: relative;
+box-sizing: border-box;
+font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: bold;
+  font-weight: 700;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  text-align: left;
+}
+
+.inner-page-content .other-content{
+  width: 50%;
+  float: left;
+position: relative;
+box-sizing: border-box;
+font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 14px;
+  font-style: normal;
+  letter-spacing: 0.00px;
+  line-height: 22px;
+  text-align: left;
+}
+
+.product-banners .product-banners-inner{
+  position: relative;
+  display: table;
+  width: 100%;
+}
+
+.product-banners-inner .button-right{
+   width: 70px;
+   background-color: #FFF;
+   text-align: center;
+   height: 70px;
+   line-height: 70px;
+   position: absolute;
+   z-index: 1;
+   top:50%;
+   margin-top: -35px;
+   right:0px;
+   color: fff;
+   box-shadow: none;
+   border: none;
+   font-size: 20px;
+}
+
+.product-banners-inner .button-left{
+  width: 70px;
+  background-color: #FFF;
+  text-align: center;
+  height: 70px;
+  line-height: 70px;
+  position: absolute;
+  z-index: 1;
+  top:50%;
+  margin-top: -35px;
+  left:0px;
+  color: fff;
+  box-shadow: none;
+  border: none;
+  font-size: 20px;
 }
