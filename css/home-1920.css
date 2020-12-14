@@ -302,10 +302,9 @@ body{
   position: relative;
   clear: both;
   width: 1024px;
-  height: 1024px;
-  background-image: url("../img/About-background.jpg");
+  height: 1000px;
+  background-image: url("../img/partner-map.png");
   background-position: bottom ;
-  background-size:100% 100%;
   background-repeat: no-repeat;
   display: table;
 }
@@ -449,10 +448,20 @@ border-radius: 10px;
 
 .logo-box{
   position: absolute;
-  width: 50%;
+  width: 192px;
   z-index: 2;
-  margin-left:33%;
+  padding:10px;
+  margin-top:30px;
+  left:50%;
+  margin-left: -96px;
+  background-color: rgba(255,255,255,0.6);
 }
+
+.logo-box img{
+  width: 172px;
+}
+
+
 
 
 .helper-content{
@@ -529,6 +538,7 @@ font-weight: normal;
 font-size: 14px;
 line-height:20px;
 overflow: hidden;
+height: 465px;
 }
 
 .testi-box img{
@@ -1317,6 +1327,7 @@ color: #FFFFFF;}
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
+  text-align: center;
 }
 :root {
   --amber: rgba(255,193,14,1.0);
@@ -1470,3 +1481,12 @@ font-family: 'Poppins', Helvetica, Arial, serif;
   font-size: 20px;
 }
 
+.social-nav{
+  list-style: none;
+  padding-left: 0px;
+
+}
+.social-nav li{
+  float: left;
+  margin-right: 10px;
+}
