@@ -194,7 +194,7 @@ body{
   width: 1024px; /* 2 */
   padding-right: 10px; /* 3 */
   padding-left:  10px; /* 3 */
-  display: table;
+  display: block;
 }
 
 .header{
@@ -1375,15 +1375,7 @@ input[type=text]{
   height: calc(100vh - 154px);
 }
 
-.brand-background{
-  width: 65%;
-  height:  calc(100vh - 154px);
-  position: absolute;
-  right:0px;
-  background-size: fit;
-  z-index: -1;
 
-}
 
 .brand-logo{
   position: absolute;
@@ -1392,26 +1384,13 @@ input[type=text]{
   margin-top: -100px;
 }
 
-.brand-background.frem-group{
-  background-image: url(../img/inner-page/architecture-3-pp.jpg);
-  background-position: left center;
-  background-repeat: no-repeat;
-  background-size:130%;
-}
-
-.brand-background.ofs{
-  background-image: url(../img/inner-page/ofs.jpg);
-  background-position: left center;
-  background-repeat: no-repeat;
-  background-size:130%;
-}
 
 .inner-page-content{
   width: 100%;
   display: table;
   position: relative;
-  padding-top: 25px;
-  padding-bottom: 25px;
+  padding-top: 125px;
+  padding-bottom:125px;
 }
 .inner-page-content .main-content{
 width: 40%;
@@ -1489,4 +1468,174 @@ font-family: 'Poppins', Helvetica, Arial, serif;
 .social-nav li{
   float: left;
   margin-right: 10px;
+}
+
+
+/*-----------------------------------------------------------------------About Us____________________________________________________________________________________/*
+*/
+
+.aboutpage div {
+	box-sizing: border-box;
+	transition: all ease-in-out .5s;
+	-moz-transition: all ease-in-out .5s;
+	-webkit-transition: all ease-in-out .5s;
+}
+
+.aboutpage{
+  margin-top:150px;
+}
+.icetab {
+	display: inline-block; 
+	border-bottom: 0px;	
+	margin: 0px;	
+  color: #fff;
+  cursor: pointer;
+  background-color: #404040;
+}
+
+.icetab:first-child {
+	border-radius: 25px 0 0;
+}
+
+#icetab-content {
+	overflow: hidden;
+	position: relative;
+  border-top: 2px solid #ff9900;
+  border-radius: 0 25px 25px 25px ;
+}
+
+
+.tabcontent {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	background: #fff;
+	width: 100%;
+	border-top: 0px;
+	border: 2px solid #ff9900;
+	border-top: 0px;
+	transform: translateY(-100%);
+	-moz-transform: translateY(-100%);
+	-webkit-transform: translateY(-100%);
+}
+
+.tabcontent:first-child {
+	position: relative;	
+}
+.tabcontent.tab-active {
+	border-top: 0px;
+	display: block;
+	transform: translateY(0%);
+	-moz-transform: translateY(0%);
+  -webkit-transform: translateY(0%);
+  border-radius: 0 25px 25px 25px ;
+}
+
+
+/* A tiny wee bit of visual formating */
+body {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;	
+	background: #666;
+	color: #454545;
+}
+.codepen-container {
+  width: 100%;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title {
+  color: #ff9900;
+  text-align: center;
+  letter-spacing: 14px;
+  text-transform: uppercase;
+  font-size: 17px;
+  margin: 40px 0px;
+}
+.tabcontent {
+	padding: 40px;
+}
+.icetab {
+	padding: 20px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.current-tab { 
+	background: #ff9900;
+}
+
+.brand-background{
+  width: 100vw;
+  height: 100vh;
+  min-height: 600px;
+  min-width: 100%;
+  background-size: cover;
+  background-position: left bottom;
+  background-repeat: no-repeat;
+  margin-top: -154px;
+}
+
+.brand-logo{
+  position: absolute;
+  height: 15vw;
+  width: 15vw;
+  top:50%;
+  margin-top: -162px;
+ 
+}
+
+
+.brand-background.frem{
+  background-image: url("../img/inner-page/Frem-group-banner.jpg");
+}
+
+.brand-background.artis{
+  background-image: url("../img/inner-page/flat-by-artis-banner.jpg");
+}
+
+.brand-background.martela{
+  background-image: url("../img/inner-page/martela-banner.jpg");
+}
+
+.brand-background.nook{
+  background-image: url("../img/inner-page/nook-banner.jpg");
+}
+
+.brand-background.noti{
+  background-image: url("../img/inner-page/noti-banner.jpg");
+}
+
+.brand-background.ofs{
+  background-image: url("../img/inner-page/ofs-banner.jpg");
+}
+.brand-background.scale{
+  background-image: url("../img/inner-page/scala-banner.jpg");
+}
+
+.brand-background.slalom{
+  background-image: url("../img/inner-page/slalom-banner.jpg");
+}
+
+.brand-background.softline{
+  background-image: url("../img/inner-page/softlin-banner.jpg");
+}
+
+.brand-background.true{
+  background-image: url("../img/inner-page/true-banner.jpg");
+}
+
+.brand-background.about{
+  background-image: url("../img/inner-page/about-banner.jpg");
+}
+
+.brand-background.under{
+  background-image: url("../img/inner-page/under-construction-banner.jpg");
+}
+
+*:focus {
+  outline: none;
+}
+
+.brand-slider div img{
+  cursor: pointer;
 }

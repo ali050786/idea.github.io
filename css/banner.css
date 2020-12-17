@@ -418,12 +418,12 @@
   
   .demo-cont {
     overflow: hidden;
-    position: relative;
+    position: absolute;
     height: 100vh;
-    -webkit-perspective: 1500px;
-            perspective: 1500px;
-    background: #000;
-    margin-top:-155px;
+    width: 100vw;
+    top:0;
+    z-index: 1;
+    left: 0;
   }
   .demo-cont__credits {
     box-sizing: border-box;
