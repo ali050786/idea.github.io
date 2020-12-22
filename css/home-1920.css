@@ -352,26 +352,10 @@ border-radius: 10px;
   color: #EC1651;
 }
 
-.team-member{
-  position: relative;
-  float: left;
-  width: 200px;
-  height: auto;
-  margin-right:20px;
-  background: #ec16530c;
-  box-sizing: border-box;
-  padding: 15px;
-}
 
-.accordion-body .team-member:nth-child(3n+3) {
-  margin-right:0px;
-}
 
-.team-member img{
-  width: 100%;
-  padding: 10%;
 
-}
+
 
 .member-name{
   font-family: Poppins;
@@ -384,11 +368,7 @@ border-radius: 10px;
   margin-bottom: 0;
 }
 
-.team{
-  width: 500px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
+
 .member-designation{
   font-family: Poppins;
   font-style: normal;
@@ -451,7 +431,7 @@ border-radius: 10px;
   width: 160px;
   z-index: 2;
   padding:5px;
-  margin-top:30px;
+  top:30px;
   left:50%;
   margin-left: -96px;
   background-color: rgba(255,255,255,0.6);
@@ -538,7 +518,7 @@ font-weight: normal;
 font-size: 14px;
 line-height:20px;
 overflow: hidden;
-height: 465px;
+height: 439px;
 }
 
 .testi-box img{
@@ -547,6 +527,10 @@ height: 465px;
 }
 .testi-box:first-child{
   margin-left:0%;
+}
+
+.testi-text{
+  text-align: justify;
 }
 
 .testimonials{
@@ -1584,6 +1568,23 @@ body {
  
 }
 
+.popup_content {
+  margin: 10px;
+  padding: 0 30px;
+  max-width: 40%;
+  border: 0px solid #444;
+  background: white;
+}
+
+.test-btn{
+  background: none;
+  border:none;
+  box-shadow: none;
+  color:#EC1651;
+  font-family: 'Poppins', Helvetica, Arial, serif;
+  font-size: 14px;
+  cursor: pointer;
+}
 
 .brand-background.frem{
   background-image: url("../img/inner-page/Frem-group-banner.jpg");
@@ -1638,4 +1639,93 @@ body {
 
 .brand-slider div img{
   cursor: pointer;
+}
+
+.team-member{
+   position: relative;
+   width: 33%;
+   height: 440px;
+   box-sizing: border-box;
+   border: none;
+   float: left;
+}
+
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0px;
+  left: 0px;
+  background: #000;
+  right:0px;
+  bottom:0px;
+  z-index:3;
+  opacity: 0.2;
+}
+
+.team-meta{
+  position: absolute;
+  width: 100%;
+  left: 20px;
+  bottom:10px;
+  z-index:4;
+  font-family: 'Poppins', Helvetica, Arial, serif;
+}
+
+.team-meta h3{color: #fff !important;
+    opacity: 1;
+    font-size: 20px;
+    line-height: 22px;
+    display: block;
+    padding: 7px;
+    margin: 0px;
+    /* background-color: rgba(240,240,240,0.5); */
+    background: -moz-linear-gradient(left, rgba(48,48,48,0.8) 0%, rgba(48,48,48,0) 100%);
+    background: -webkit-linear-gradient(left, rgba(48,48,48,0.8) 0%,rgba(48,48,48,0) 100%);
+    background: linear-gradient(to right, rgba(48,48,48,0.8) 0%,rgba(48,48,48,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80303030', endColorstr='#00303030',GradientType=1 );
+}
+
+.team-meta p{color: #fff !important;
+  opacity: 1;
+  font-size: 16px;
+  line-height: 20px;
+  display: block;
+  margin-top: 5px;
+  opacity: 0;
+}
+
+
+.image{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0px;
+  left: 0px;
+  background: #333333;
+  right:0px;
+  bottom:0px;
+  z-index:1;
+  
+  overflow: hidden;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+.team-member:hover .overlay{
+  opacity: 0.7;
+}
+
+.team-member:hover .team-meta{
+  bottom: 25px;
+}
+
+.team-member:hover .team-meta p{
+  opacity: 1;
+}
+
+.team-member *{
+  transition: all 0.4s ease;
 }
