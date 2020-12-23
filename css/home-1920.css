@@ -1686,6 +1686,14 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#80303030', endColorstr='#00303030',GradientType=1 );
 }
 
+.team-meta a{
+display:block; 
+margin-top: -26px;
+padding-left: 190px;
+line-height: 22px;
+z-index: 1;
+}
+
 .team-meta p{color: #fff !important;
   opacity: 1;
   font-size: 16px;
