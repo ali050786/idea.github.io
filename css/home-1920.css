@@ -504,10 +504,10 @@ border-radius: 10px;
 }
 
 .testi-box{
-  width: 30%;
+  width: 23%;
   display: table;
   position: relative;
-  margin-left:5%;
+  margin-left:2%;
   float: left;
   box-sizing: border-box;
   box-shadow: 0px 8px 28px -6px rgba(24, 39, 75, 0.12), 0px 18px 88px -4px rgba(24, 39, 75, 0.14);
@@ -518,7 +518,7 @@ font-weight: normal;
 font-size: 14px;
 line-height:20px;
 overflow: hidden;
-height: 439px;
+height: 410px;
 }
 
 .testi-box img{
@@ -1728,4 +1728,8 @@ body {
 
 .team-member *{
   transition: all 0.4s ease;
+}
+
+.team-member:hover .image img {
+  transform: scale(1.2);
 }
