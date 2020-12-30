@@ -1622,11 +1622,11 @@ body {
 }
 
 .brand-background.true{
-  background-image: url(" ../img/banner/slide-4.jpg");
+  background-image: url("../img/inner-page/true-banner.jpg");
 }
 
 .brand-background.about{
-  background-image: url("../img/inner-page/about-banner.jpg");
+  background-image: url("../img/inner-page/slide-4.jpg");
 }
 
 .brand-background.under{
@@ -1696,7 +1696,7 @@ z-index: 1;
 
 .team-meta p{color: #fff !important;
   opacity: 1;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 20px;
   display: block;
   margin-top: 5px;
