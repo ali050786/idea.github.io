@@ -527,16 +527,29 @@
   }
   .example-slider .fnc-slide-1 .fnc-slide__inner,
   .example-slider .fnc-slide-1 .fnc-slide__mask-inner {
-    background-image: url("../img/banner/slide-1.jpg");
+    background-image: url("../img/banner/slide-7.jpg");
   }
   .example-slider .fnc-slide-2 .fnc-slide__inner,
   .example-slider .fnc-slide-2 .fnc-slide__mask-inner {
-    background-image: url("../img/banner/slide-2.jpg");
+    background-image: url("../img/banner/slide-8.jpg");
   }
   .example-slider .fnc-slide-3 .fnc-slide__inner,
   .example-slider .fnc-slide-3 .fnc-slide__mask-inner {
-    background-image: url("../img/banner/slide-3.jpg");
+    background-image: url("../img/banner/slide-10.jpg");
   }
+
+  .example-slider .fnc-slide-5 .fnc-slide__inner,
+  .example-slider .fnc-slide-5 .fnc-slide__mask-inner {
+    background-image: url("../img/banner/slide-5.jpg");
+  }
+
+
+  .example-slider .fnc-slide-6 .fnc-slide__inner,
+  .example-slider .fnc-slide-6 .fnc-slide__mask-inner {
+    background-image: url("../img/banner/slide-1.jpg");
+  }
+
+
   .example-slider .fnc-slide-3 .fnc-slide__inner:before {
     content: "";
     position: absolute;
@@ -546,9 +559,10 @@
     height: 100%;
     background: rgba(255, 255, 255, 0.1);
   }
+
   .example-slider .fnc-slide-4 .fnc-slide__inner,
   .example-slider .fnc-slide-4 .fnc-slide__mask-inner {
-    background-image: url("../img/inner-page/true-banner.jpg");
+    background-image: url("../img/banner/slide-2.jpg");
   }
  
 

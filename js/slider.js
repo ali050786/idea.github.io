@@ -25,7 +25,7 @@
   
       var autoSlidingActive = false;
       var autoSlidingTO;
-      var autoSlidingDelay = 5000; // default autosliding delay value
+      var autoSlidingDelay = 4000; // default autosliding delay value
       var autoSlidingBlocked = false;
   
       var $activeSlide;
