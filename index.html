@@ -8,16 +8,21 @@
   <meta name="og:type" content="website" />
   <meta name="twitter:card" content="photo" />
   <link rel="stylesheet" type="text/css" href="css/home-1920.css" />
-  
+
   <link rel="stylesheet" type="text/css" href="css/banner.css" />
+
+  <link rel="stylesheet" type="text/css" href="css/slick.css" />
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css" />
+
   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
   <title>.:: Idealab ::. </title>
   <script src="https://code.jquery.com/jquery-3.5.1.min.js"
     integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
-
+  <script type="text/javascript" src="js/slick.min.js"></script>
 </head>
 
 <body style="margin: 0; background: rgba(255, 255, 255, 1)">
@@ -210,7 +215,7 @@ because it requires specific images, where more than 50% of bg is transparent or
             </div>
             <!-- slide end -->
 
-            
+
           </div>
           <nav class="fnc-nav" style="display: none;">
             <div class="fnc-nav__bgs">
@@ -467,80 +472,120 @@ because it requires specific images, where more than 50% of bg is transparent or
     <div class="testimonials">
       <div class="wrapper">
         <h1 class="poppins-bold-mine-shaft-48px">Brands Speak...</h1>
-        <div class="testi-outer">
-          <div class="testi-box" data-aos="fade-left">
-            <img src="img/testimonial/David.jpg">
-            <div class="testi-content">
-              <p class="testi-name">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-                  <path id="ic_perm_identity_24px"
-                    d="M12,5.9A2.1,2.1,0,1,1,9.9,8,2.1,2.1,0,0,1,12,5.9m0,9c2.97,0,6.1,1.46,6.1,2.1v1.1H5.9V17c0-.64,3.13-2.1,6.1-2.1M12,4a4,4,0,1,0,4,4A4,4,0,0,0,12,4Zm0,9c-2.67,0-8,1.34-8,4v3H20V17C20,14.34,14.67,13,12,13Z"
-                    transform="translate(-4 -4)" fill="#ec1651" />
-                </svg>
-                David O’Coimin
+        <div class="brand-slider" style="width: 1024px;">
+          <!--One Slide-->
+          <div style="padding-bottom: 50px;">
+            <div class="testi-box">
+              <img src="img/testimonial/David.jpg">
+              <div class="testi-content">
+                <p class="testi-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <path id="ic_perm_identity_24px"
+                      d="M12,5.9A2.1,2.1,0,1,1,9.9,8,2.1,2.1,0,0,1,12,5.9m0,9c2.97,0,6.1,1.46,6.1,2.1v1.1H5.9V17c0-.64,3.13-2.1,6.1-2.1M12,4a4,4,0,1,0,4,4A4,4,0,0,0,12,4Zm0,9c-2.67,0-8,1.34-8,4v3H20V17C20,14.34,14.67,13,12,13Z"
+                      transform="translate(-4 -4)" fill="#ec1651" />
+                  </svg>
+                  David O’Coimin
 
-              </p>
-              <p class="testi-text">I have been working closely together with Sameer Kulkarni and the IDEALAB team on
-                international projects for leading global organisations for 2 years </p><button class="popup1_open test-btn">Know More</button>
-              
-              </p>
+                </p>
+                <p class="testi-text">I have been working closely together with Sameer Kulkarni and the IDEALAB team on
+                  international projects for leading global organisations for 2 years </p><button
+                  class="popup1_open test-btn">Know More</button>
+
+                </p>
+              </div>
+            </div>
+
+          </div>
+          <!--Ends Here-->
+          <!--Slide 2 Here-->
+          <div style="padding-bottom: 50px;">
+            <div class="testi-box">
+              <img src="img/testimonial/Mara.jpg">
+              <div class="testi-content">
+                <p class="testi-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <path id="ic_perm_identity_24px"
+                      d="M12,5.9A2.1,2.1,0,1,1,9.9,8,2.1,2.1,0,0,1,12,5.9m0,9c2.97,0,6.1,1.46,6.1,2.1v1.1H5.9V17c0-.64,3.13-2.1,6.1-2.1M12,4a4,4,0,1,0,4,4A4,4,0,0,0,12,4Zm0,9c-2.67,0-8,1.34-8,4v3H20V17C20,14.34,14.67,13,12,13Z"
+                      transform="translate(-4 -4)" fill="#ec1651" />
+                  </svg>
+                  Mara Ruggieri
+                </p>
+                <p class="testi-text">It is with pleasure that I am recommending IDEALAB as a serious, professional
+                  partner for
+                  the marketing of furniture brand in the Indian territory
+                </p><button class="popup2_open test-btn">Know More</button>
+              </div>
             </div>
           </div>
-          <div class="testi-box" data-aos="fade-up" data-aos-duration="2000">
-            <img src="img/testimonial/Mara.jpg">
-            <div class="testi-content">
-              <p class="testi-name">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-                  <path id="ic_perm_identity_24px"
-                    d="M12,5.9A2.1,2.1,0,1,1,9.9,8,2.1,2.1,0,0,1,12,5.9m0,9c2.97,0,6.1,1.46,6.1,2.1v1.1H5.9V17c0-.64,3.13-2.1,6.1-2.1M12,4a4,4,0,1,0,4,4A4,4,0,0,0,12,4Zm0,9c-2.67,0-8,1.34-8,4v3H20V17C20,14.34,14.67,13,12,13Z"
-                    transform="translate(-4 -4)" fill="#ec1651" />
-                </svg>
-                Mara Ruggieri
-              </p>
-              <p class="testi-text">It is with pleasure that I am recommending IDEALAB as a serious, professional partner for
-                the marketing of furniture brand in the Indian territory
-              </p><button class="popup2_open test-btn">Know More</button>
-            </div>
-          </div>
-          <div class="testi-box" data-aos="fade-right" data-aos-duration="2000">
-            <img src="img/testimonial/person1.png">
-            <div class="testi-content">
-              <p class="testi-name">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-                  <path id="ic_perm_identity_24px"
-                    d="M12,5.9A2.1,2.1,0,1,1,9.9,8,2.1,2.1,0,0,1,12,5.9m0,9c2.97,0,6.1,1.46,6.1,2.1v1.1H5.9V17c0-.64,3.13-2.1,6.1-2.1M12,4a4,4,0,1,0,4,4A4,4,0,0,0,12,4Zm0,9c-2.67,0-8,1.34-8,4v3H20V17C20,14.34,14.67,13,12,13Z"
-                    transform="translate(-4 -4)" fill="#ec1651" />
-                </svg>
-                Katri Pajula
-              </p>
-              <p class="testi-text">“It´s been a great journey since we started the cooperation in the beginning of 2019. Many
-                interesting projects and more to come.</p>
+          <!--Ends Here-->
+          <!--Slide 3 Here-->
+          <div style="padding-bottom: 50px;">
+            <div class="testi-box">
+              <img src="img/testimonial/person1.png">
+              <div class="testi-content">
+                <p class="testi-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <path id="ic_perm_identity_24px"
+                      d="M12,5.9A2.1,2.1,0,1,1,9.9,8,2.1,2.1,0,0,1,12,5.9m0,9c2.97,0,6.1,1.46,6.1,2.1v1.1H5.9V17c0-.64,3.13-2.1,6.1-2.1M12,4a4,4,0,1,0,4,4A4,4,0,0,0,12,4Zm0,9c-2.67,0-8,1.34-8,4v3H20V17C20,14.34,14.67,13,12,13Z"
+                      transform="translate(-4 -4)" fill="#ec1651" />
+                  </svg>
+                  Katri Pajula
+                </p>
+                <p class="testi-text">“It´s been a great journey since we started the cooperation in the beginning of
+                  2019. Many
+                  interesting projects and more to come.</p>
                 <button class="popup3_open test-btn">Know More</button>
+              </div>
             </div>
           </div>
-
-
-          <div class="testi-box" data-aos="fade-right" data-aos-duration="2000">
-            <img src="img/testimonial/electra.png">
-            <div class="testi-content">
-              <p class="testi-name">
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
-                  <path id="ic_perm_identity_24px"
-                    d="M12,5.9A2.1,2.1,0,1,1,9.9,8,2.1,2.1,0,0,1,12,5.9m0,9c2.97,0,6.1,1.46,6.1,2.1v1.1H5.9V17c0-.64,3.13-2.1,6.1-2.1M12,4a4,4,0,1,0,4,4A4,4,0,0,0,12,4Zm0,9c-2.67,0-8,1.34-8,4v3H20V17C20,14.34,14.67,13,12,13Z"
-                    transform="translate(-4 -4)" fill="#ec1651" />
-                </svg>
-                Elettra de Pellegrin
-              </p>
-              <p class="testi-text">What is special about idealab? Finding a team of passionated and professional people,always
-                ready to convert an idea into ...</p>
+          <!--Ends Here-->
+          <!--Slide 4 Here-->
+          <div style="padding-bottom: 50px;">
+            <div class="testi-box">
+              <img src="img/testimonial/electra.png">
+              <div class="testi-content">
+                <p class="testi-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <path id="ic_perm_identity_24px"
+                      d="M12,5.9A2.1,2.1,0,1,1,9.9,8,2.1,2.1,0,0,1,12,5.9m0,9c2.97,0,6.1,1.46,6.1,2.1v1.1H5.9V17c0-.64,3.13-2.1,6.1-2.1M12,4a4,4,0,1,0,4,4A4,4,0,0,0,12,4Zm0,9c-2.67,0-8,1.34-8,4v3H20V17C20,14.34,14.67,13,12,13Z"
+                      transform="translate(-4 -4)" fill="#ec1651" />
+                  </svg>
+                  Elettra de Pellegrin
+                </p>
+                <p class="testi-text">What is special about idealab? Finding a team of passionated and professional
+                  people,always
+                  ready to convert an idea into ...</p>
                 <button class="popup4_open test-btn">Know More</button>
+              </div>
             </div>
           </div>
+          <!--Ends Here-->
 
-
+          <div style="padding-bottom: 50px;">
+            <div class="testi-box">
+              <img src="img/testimonial/gloria.png">
+              <div class="testi-content">
+                <p class="testi-name">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+                    <path id="ic_perm_identity_24px"
+                      d="M12,5.9A2.1,2.1,0,1,1,9.9,8,2.1,2.1,0,0,1,12,5.9m0,9c2.97,0,6.1,1.46,6.1,2.1v1.1H5.9V17c0-.64,3.13-2.1,6.1-2.1M12,4a4,4,0,1,0,4,4A4,4,0,0,0,12,4Zm0,9c-2.67,0-8,1.34-8,4v3H20V17C20,14.34,14.67,13,12,13Z"
+                      transform="translate(-4 -4)" fill="#ec1651" />
+                  </svg>
+                  Glòria Ribera Ferrera
+                </p>
+                <p class="testi-text">FLAT by ARTIS’ business relationship with IDEALAB! can be defined as a constant
+                  exchange of high value experience...</p>
+                <button class="popup5_open test-btn">Know More</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+
+
+
     <!--
     <div class="helper" data-aos="fade-down">
       <div class="wrapper">
@@ -574,7 +619,7 @@ because it requires specific images, where more than 50% of bg is transparent or
 
           <h1>Idealab</h1>
           <p>1st floor, #134, Media Domain,
-           </br>
+            </br>
             Doopanahalli, Domlur, Bengauluru-560 071</p>
 
           <p>Call : +91 080 41278621</br>
@@ -591,13 +636,16 @@ because it requires specific images, where more than 50% of bg is transparent or
               </a>
             </li>
             <li>
-              <a href="https://www.linkedin.com/company/idea-lab-official"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M15.4622 0H1.53779C0.6885 0 0 0.6885 0 1.53779V15.4622C0 16.3115 0.6885 17 1.53779 17H15.4622C16.3115 17 17 16.3115 17 15.4622V1.53779C17 0.6885 16.3115 0 15.4622 0ZM5.26052 14.6789C5.26052 14.9261 5.06017 15.1264 4.813 15.1264H2.90802C2.66086 15.1264 2.46051 14.9261 2.46051 14.6789V6.69333C2.46051 6.44616 2.66086 6.24581 2.90802 6.24581H4.813C5.06017 6.24581 5.26052 6.44616 5.26052 6.69333V14.6789ZM3.86051 5.49305C2.86103 5.49305 2.05077 4.68279 2.05077 3.6833C2.05077 2.68382 2.86103 1.87356 3.86051 1.87356C4.86 1.87356 5.67026 2.68382 5.67026 3.6833C5.67026 4.68279 4.86004 5.49305 3.86051 5.49305ZM15.2159 14.715C15.2159 14.9422 15.0316 15.1264 14.8044 15.1264H12.7602C12.533 15.1264 12.3488 14.9422 12.3488 14.715V10.9693C12.3488 10.4105 12.5127 8.52069 10.8885 8.52069C9.62868 8.52069 9.37314 9.81421 9.32183 10.3947V14.715C9.32183 14.9422 9.13763 15.1264 8.91036 15.1264H6.93329C6.70606 15.1264 6.52181 14.9422 6.52181 14.715V6.65728C6.52181 6.43005 6.70606 6.24581 6.93329 6.24581H8.91036C9.13759 6.24581 9.32183 6.43005 9.32183 6.65728V7.35397C9.78897 6.65292 10.4832 6.11181 11.9614 6.11181C15.2346 6.11181 15.2159 9.16985 15.2159 10.8501V14.715Z" fill="#EC1651"/>
-                </svg>                
+              <a href="https://www.linkedin.com/company/idea-lab-official"><svg width="17" height="17"
+                  viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path
+                    d="M15.4622 0H1.53779C0.6885 0 0 0.6885 0 1.53779V15.4622C0 16.3115 0.6885 17 1.53779 17H15.4622C16.3115 17 17 16.3115 17 15.4622V1.53779C17 0.6885 16.3115 0 15.4622 0ZM5.26052 14.6789C5.26052 14.9261 5.06017 15.1264 4.813 15.1264H2.90802C2.66086 15.1264 2.46051 14.9261 2.46051 14.6789V6.69333C2.46051 6.44616 2.66086 6.24581 2.90802 6.24581H4.813C5.06017 6.24581 5.26052 6.44616 5.26052 6.69333V14.6789ZM3.86051 5.49305C2.86103 5.49305 2.05077 4.68279 2.05077 3.6833C2.05077 2.68382 2.86103 1.87356 3.86051 1.87356C4.86 1.87356 5.67026 2.68382 5.67026 3.6833C5.67026 4.68279 4.86004 5.49305 3.86051 5.49305ZM15.2159 14.715C15.2159 14.9422 15.0316 15.1264 14.8044 15.1264H12.7602C12.533 15.1264 12.3488 14.9422 12.3488 14.715V10.9693C12.3488 10.4105 12.5127 8.52069 10.8885 8.52069C9.62868 8.52069 9.37314 9.81421 9.32183 10.3947V14.715C9.32183 14.9422 9.13763 15.1264 8.91036 15.1264H6.93329C6.70606 15.1264 6.52181 14.9422 6.52181 14.715V6.65728C6.52181 6.43005 6.70606 6.24581 6.93329 6.24581H8.91036C9.13759 6.24581 9.32183 6.43005 9.32183 6.65728V7.35397C9.78897 6.65292 10.4832 6.11181 11.9614 6.11181C15.2346 6.11181 15.2159 9.16985 15.2159 10.8501V14.715Z"
+                    fill="#EC1651" />
+                </svg>
               </a>
             </li>
             <li>
-              
+
             </li>
           </ul>
         </div>
@@ -627,14 +675,15 @@ because it requires specific images, where more than 50% of bg is transparent or
     <h2><strong>Mara Ruggieri</strong> | Export Area Manager | True</h2>
     <p>it is with pleasure that I am recommending IDEALAB as a serious, professional partner for
       the marketing of furniture brand in the Indian territory</p>
-      <p>True Design has been working with Idealab for over a year and a half and we are delighted to
+    <p>True Design has been working with Idealab for over a year and a half and we are delighted to
       recommend idealab as an extremely serious professional partner with a deep knowledge of
       the market.</p>
-      <p>All the staff are very efficient and always available at all hours to assist promptly.
+    <p>All the staff are very efficient and always available at all hours to assist promptly.
       Passion and enthusiasm in their work are certainly characteristics that distinguish the staff of
       Idealab.</p>
-      <p>Sameer Kulkarni specifically has a high level of professionalism and proper approach to
-      follow negotiations with world-class companies for the above reasons I can only highly recommend Idealab team as best optimal Partner in
+    <p>Sameer Kulkarni specifically has a high level of professionalism and proper approach to
+      follow negotiations with world-class companies for the above reasons I can only highly recommend Idealab team as
+      best optimal Partner in
       India</p>
   </section>
 
@@ -650,10 +699,22 @@ because it requires specific images, where more than 50% of bg is transparent or
     <h2><strong>Elettra de Pellegrin</strong> | Partner | Slalom s.r.l.</h2>
     <p>What is special about idealab? Finding a team of passionated and professional people,always
       ready to convert an idea into a enthusiasmatic project.</p>
-      <p>Special ingredient is the kindnesses behind Sameer’s choice and action, working positively to
-        reach the best quality result.</p>
-      <p>Idealab is able to merge great values with design,to focus along, with and on people.</p>
-      <p>Thank you for this first year and much much more to come!</p>
+    <p>Special ingredient is the kindnesses behind Sameer’s choice and action, working positively to
+      reach the best quality result.</p>
+    <p>Idealab is able to merge great values with design,to focus along, with and on people.</p>
+    <p>Thank you for this first year and much much more to come!</p>
+  </section>
+
+  <section id="popup5">
+    <h2><strong>Glòria Ribera Ferrera</strong> | Export Sales Manager at FLAT by ARTIS (ARTIS Group)</h2>
+    <p>FLAT by ARTIS’ business relationship with IDEALAB! can be defined as a constant exchange of high value
+      experience, technical knowhow and commercial & marketing precious tools.</p>
+    <p> It’s a high professional partner, fully involved in finding out the best solution for the client, accessible,
+      always available to study, discuss and apply every technical solution we can offer. Thanks to these skills our
+      daily business work with IDEALAB! becomes more comfortable – even in stressed time deadline’s situations – and
+      allows to arrive to a satisfactory project definition. </p>
+    <p>We look forward to maintaining this positive and developing working relationship in the upcoming years.</p>
+    
   </section>
 
   <script type="text/javascript">
@@ -706,6 +767,21 @@ because it requires specific images, where more than 50% of bg is transparent or
     $('#popup2').popup();
     $('#popup3').popup();
     $('#popup4').popup();
+    $('#popup5').popup();
+
+
+    $(document).ready(function () {
+      $('.brand-slider').slick({
+        dots: true,
+        infinite: true,
+        speed: 300,
+        arrows: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 8000
+      });
+    })
 
   </script>
   <script src="js/slider.js"></script>
