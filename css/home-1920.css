@@ -1631,7 +1631,9 @@ body {
 }
 
 .brand-background.under{
-  background-image: url("../img/inner-page/under-construction-banner.jpg");
+  background-image: url("../img/inner-page/Walk1.gif");
+  background-size: auto!important;
+  background-position: center center;
 }
 
 *:focus {
@@ -1741,4 +1743,13 @@ z-index: 1;
 
 .team-member:hover .image img {
   transform: scale(1.2);
+}
+
+.contact-inner-idea{
+  width: 1024px;
+  height: 1024px;
+  position: relative;
+  background-image: url("../img/reach-1.svg");
+  background-repeat: no-repeat;
+  background-position: center;
 }
