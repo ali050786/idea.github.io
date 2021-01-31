@@ -22,6 +22,7 @@
   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
   <script src="https://cdn.jsdelivr.net/gh/vast-engineering/jquery-popup-overlay@2/jquery.popupoverlay.min.js"></script>
   <script type="text/javascript" src="js/slick.min.js"></script>
+  
 </head>
 
 <body style="margin: 0; background: rgba(255, 255, 255, 1)">
@@ -49,13 +50,23 @@
               <path d="M0 14.5263V43.2438H6.00386V14.5263H0ZM0 0V6.43844H6.00386V0H0Z" fill="#EC1651" />
             </svg>
           </div>
+          <div class="menu-res"></div>
           <div class="nav">
-            <ul>
+
+            <ul class="desktop">
               <li><a href="index.html" class="montserratalternates-normal-mine-shaft-18px">Home</a></li>
               <li><a href="about.html" class="montserratalternates-normal-mine-shaft-18px">About</a></li>
               <li><a href="under-construction.html" class="montserratalternates-normal-mine-shaft-18px">Projects</a>
               </li>
               <li><a href="contact-us.html" class="montserratalternates-normal-mine-shaft-18px">Contacts</a></li>
+            </ul>
+            <ul class="mobile">
+              <li><a href="index.html" class="montserratalternates-normal-mine-shaft-18px">Home</a></li>
+              <li><a href="about.html" class="montserratalternates-normal-mine-shaft-18px">About</a></li>
+              <li><a href="under-construction.html" class="montserratalternates-normal-mine-shaft-18px">Projects</a>
+              </li>
+              <li><a href="contact-us.html" class="montserratalternates-normal-mine-shaft-18px">Contacts</a></li>
+              <li class="close"><a></a></li>
             </ul>
           </div>
         </div>
@@ -255,8 +266,7 @@ because it requires specific images, where more than 50% of bg is transparent or
         <div class="demo-cont__credits">
           <div class="demo-cont__credits-close"></div>
           <h2 class="demo-cont__credits-heading">Made by</h2>
-          <img src="" alt=""
-            class="demo-cont__credits-img" />
+          <img src="" alt="" class="demo-cont__credits-img" />
           <h3 class="demo-cont__credits-name">Nikolay Talanov</h3>
           <a href="https://codepen.io/suez/" target="_blank" class="demo-cont__credits-link">My codepen</a>
           <a href="https://twitter.com/NikolayTalanov" target="_blank" class="demo-cont__credits-link">My twitter</a>
@@ -469,7 +479,7 @@ because it requires specific images, where more than 50% of bg is transparent or
     <div class="testimonials">
       <div class="wrapper">
         <h1 class="poppins-bold-mine-shaft-48px">Brands Speak...</h1>
-        <div class="brand-slider" style="width: 1024px;">
+        <div class="test-slider">
           <!--One Slide-->
           <div style="padding-bottom: 50px;">
             <div class="testi-box">
@@ -766,23 +776,14 @@ because it requires specific images, where more than 50% of bg is transparent or
     $('#popup4').popup();
     $('#popup5').popup();
 
+ 
 
-    $(document).ready(function () {
-      $('.brand-slider').slick({
-        dots: true,
-        infinite: true,
-        speed: 300,
-        arrows: true,
-        slidesToShow: 3,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 8000
-      });
-    })
+      
+    
 
   </script>
   <script src="js/slider.js"></script>
-
+  <script type="text/javascript" src="js/responsive.js"></script>
 
 
 

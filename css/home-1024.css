@@ -76,8 +76,9 @@
   line-height: 22px;
   text-align: left;
 }
-.brand-slider.slick-initialized.slick-slider.slick-dotted{
-  width: 100%;
+.test-slider.slick-initialized.slick-slider.slick-dotted, .brand-slider.slick-initialized.slick-slider.slick-dotted{
+  width: 90%;
+  margin-left: 10%;
   margin-top: 70px;
   margin-bottom: 70px;
 }
@@ -108,4 +109,12 @@
  .contact-text h1{
   padding-left: 5%;
  }
+
+ popup_content {
+  margin: 10px;
+  padding: 0 30px;
+  max-width: 80%;
+  border: 0px solid #444;
+  background: white;
+}
 }

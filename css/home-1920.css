@@ -101,15 +101,6 @@ a{
   to {transform:scale(1.2);}
 }
 
-.bannerImagesOuter{
-
-  animation-name: bannermoves;
-  animation-duration:10s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-  animation-direction: alternate-reverse;
-  
-}
 
 .new-arrival-inner{
   width: 100%;
@@ -1601,3 +1592,25 @@ z-index: 1;
   float: right; width: 500px; padding-top: 80px;
 }
 
+.menu-res{
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: brown;
+  display: none;
+  top:30px;
+  right:30px;
+}
+.mobile{
+  display: none;
+}
+
+.brand-slider.slick-initialized.slick-slider.slick-dotted{
+  width: 1024px;
+}
+
+
+
+body{
+  overflow-x: hidden;
+}

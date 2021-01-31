@@ -42,13 +42,23 @@
               <path d="M0 14.5263V43.2438H6.00386V14.5263H0ZM0 0V6.43844H6.00386V0H0Z" fill="#EC1651" />
             </svg>
           </div>
+          <div class="menu-res"></div>
           <div class="nav">
-            <ul>
+
+            <ul class="desktop">
               <li><a href="index.html" class="montserratalternates-normal-mine-shaft-18px">Home</a></li>
               <li><a href="about.html" class="montserratalternates-normal-mine-shaft-18px">About</a></li>
               <li><a href="under-construction.html" class="montserratalternates-normal-mine-shaft-18px">Projects</a>
               </li>
               <li><a href="contact-us.html" class="montserratalternates-normal-mine-shaft-18px">Contacts</a></li>
+            </ul>
+            <ul class="mobile">
+              <li><a href="index.html" class="montserratalternates-normal-mine-shaft-18px">Home</a></li>
+              <li><a href="about.html" class="montserratalternates-normal-mine-shaft-18px">About</a></li>
+              <li><a href="under-construction.html" class="montserratalternates-normal-mine-shaft-18px">Projects</a>
+              </li>
+              <li><a href="contact-us.html" class="montserratalternates-normal-mine-shaft-18px">Contacts</a></li>
+              <li class="close"><a></a></li>
             </ul>
           </div>
         </div>
@@ -105,7 +115,7 @@
         </div>
       </div>
       <div class="wrapper">
-        <div class="brand-slider" style="width: 1024px; margin-top: 120px; margin-bottom: 120px;">
+        <div class="brand-slider">
           <div><img src="img/home-partners/slalom.svg" onclick="location.href='slalom.html';"></div>
           <div><img src="img/home-partners/ofs.svg" onclick="location.href='ofs.html';"></div>
           <div><img src="img/home-partners/scale.svg" onclick="location.href='scale.html';"></div>
@@ -212,19 +222,8 @@
   }
 
 
-  $(document).ready(function () {
-    $('.brand-slider').slick({
-      dots: true,
-      infinite: true,
-      speed: 300,
-      arrows: true,
-      slidesToShow: 5,
-      slidesToScroll: 1,
-      autoplay: true,
-      autoplaySpeed: 3000
-    });
-  })
+ 
 
 </script>
-
+<script type="text/javascript" src="js/responsive.js"></script>
 </html>
