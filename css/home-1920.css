@@ -4,7 +4,9 @@
 */
 
 /*Original*-----------------------------------------------------------------------------------------------------------------*/
-
+a{
+  text-decoration: none;
+}
 #hideAll
  {
    position: fixed;
@@ -1587,3 +1589,15 @@ z-index: 1;
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.brand-slider.slick-initialized.slick-slider.slick-dotted{
+  width: 100%;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+
+.contact-text{
+  float: right; width: 500px; padding-top: 80px;
+}
+
