@@ -165,5 +165,17 @@
   background-image: url("../img/inner-page/mobile/True-mobile.jpg");
 }
 
+.brand-logo {
+  position: absolute;
+  height: 30vw;
+  width: 30vw;
+  top:20%;
+  margin-top: -162px;
+}
+
+.brand-logo img{
+  width: 100%;
+}
+
 
 }
