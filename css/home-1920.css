@@ -1458,8 +1458,8 @@ body {
 }
 
 .brand-background.under{
-  background-image: url("../img/inner-page/Walk1.gif");
-  background-size: auto!important;
+  background-image: url("../img/inner-page/under-construction-banner.jpg");
+  background-size: 100%!important;
   background-position: center center;
 }
 
@@ -1613,4 +1613,17 @@ z-index: 1;
 
 body{
   overflow-x: hidden;
+}
+
+.btnsite, .btnsite:visited{
+  line-height: 30px;
+  padding: 5px 20px;
+  background: #e2e2e2;
+  border-radius: 5px;
+  color: #333333;
+}
+
+.btnsite:hover{
+background: #EC1651;
+color: #fff;
 }

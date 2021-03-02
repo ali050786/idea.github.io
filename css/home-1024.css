@@ -117,4 +117,57 @@
   border: 0px solid #444;
   background: white;
 }
+
+
+
+.brand-background.frem{
+  background-image: url("../img/inner-page/mobile/Frem-group-mobile.jpg");
+}
+
+.brand-background.artis{
+  background-image: url("../img/inner-page/mobile/Flat-by-Artis-mobile.jpg");
+}
+
+.brand-background.martela{
+  background-image: url("../img/inner-page/mobile/Martela-mobile.jpg");
+}
+
+.brand-background.nook{
+  background-image: url("../img/inner-page/mobile/Nook-mobile.jpg");
+}
+
+.brand-background.noti{
+  background-image: url("../img/inner-page/mobile/Noti-mobile.jpg");
+}
+
+.brand-background.ofs{
+  background-image: url("../img/inner-page/mobile/OFS-mobile.jpg");
+}
+.brand-background.scale{
+  background-image: url("../img/inner-page/mobile/Scale-mobile.jpg");
+}
+
+.brand-background.slalom{
+  background-image: url("../img/inner-page/mobile/Slalom-mobile.jpg");
+}
+
+.brand-background.softline{
+  background-image: url("../img/inner-page/mobile/Softline-mobile.jpg");
+}
+
+.brand-background.true{
+  background-image: url("../img/inner-page/mobile/True-mobile.jpg");
+}
+
+.brand-logo {
+  position: absolute;
+  height: 30vw;
+  width: 30vw;
+  top:20%;
+  margin-top: -162px;
+}
+
+.brand-logo img{
+  width: 100%;
+}
 }
