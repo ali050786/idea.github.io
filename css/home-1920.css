@@ -241,9 +241,6 @@ border-radius: 10px;
   cursor: pointer;
 }
 
-.images-gallery .box:last-child {
-  margin-left: 33vw;
-}
 
 .box .box-bg{
   position: absolute;
@@ -1449,12 +1446,20 @@ body {
   background-image: url("../img/inner-page/softlin-banner.jpg");
 }
 
-.brand-background.true{
-  background-image: url("../img/inner-page/true-banner.jpg");
+.brand-background.about{
+  background-image: url("../img/banner/slide-4.jpg");
 }
 
 .brand-background.about{
   background-image: url("../img/banner/slide-4.jpg");
+}
+
+.brand-background.surface{
+  background-image: url("../img/inner-page/surface-background.jpg");
+}
+
+.brand-background.blocko{
+  background-image: url("../img/inner-page/blocko-background.jpg");
 }
 
 .brand-background.under{
