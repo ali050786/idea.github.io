@@ -1478,6 +1478,10 @@ body {
   background-position: center center;
 }
 
+.images-gallery .box:last-child {
+  margin-left:33vw;
+}
+
 *:focus {
   outline: none;
 }
