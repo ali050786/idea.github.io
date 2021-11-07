@@ -1442,6 +1442,11 @@ body {
   background-image: url("../img/inner-page/slalom-banner.jpg");
 }
 
+.brand-background.balma{
+  background-image: url("../img/inner-page/balma.jpg");
+}
+
+
 .brand-background.softline{
   background-image: url("../img/inner-page/softlin-banner.jpg");
 }
@@ -1460,6 +1465,11 @@ body {
 
 .brand-background.blocko{
   background-image: url("../img/inner-page/blocko-background.jpg");
+}
+
+
+.brand-background.true{
+  background-image: url("../img/inner-page/true-banner.jpg");
 }
 
 .brand-background.under{
